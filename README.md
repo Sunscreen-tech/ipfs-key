@@ -2,6 +2,8 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
+**This is a fork** of https://github.com/whyrusleeping/ipfs-key which appears ill-maintained.
+
 > A tool for easily generating and reading ipfs keypairs
 
 ## Table of Contents
@@ -14,7 +16,7 @@
 ## Installation
 
 ```
-$ go get github.com/whyrusleeping/ipfs-key
+$ go get github.com/Sunscreen-tech/ipfs-key
 ```
 
 ## Usage
@@ -42,7 +44,7 @@ Reading key at: my-ed.key
 Success!
 ID for ed25519 key: 12D3KooWF1TKgiqLMh14za7dWMN5RFRC1WAvgHYioksmdwuhZkzT
 ```
-For backward compatibility, to read RSA and Ed25519 keys generated with raw(), specify the `-type rsa` or `-type ed25519` before the `-key` 
+For backward compatibility, to read RSA and Ed25519 keys generated with raw(), specify the `-type rsa` or `-type ed25519` before the `-key`
 ```
 $ ipfs-key --type rsa -key my-ed.key
 Reading key at: my-ed.key
