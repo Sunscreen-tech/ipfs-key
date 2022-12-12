@@ -16,7 +16,7 @@
 ## Installation
 
 ```
-$ go get github.com/Sunscreen-tech/ipfs-key
+$ go install github.com/Sunscreen-tech/ipfs-key
 ```
 
 ## Usage
